@@ -35,6 +35,8 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - stack-exec-mwe
+    - Chart-cairo
+    - Chart
 
 tests:
   stack-exec-mwe-test:
